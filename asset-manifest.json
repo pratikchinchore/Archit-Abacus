@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Archit-Abacus/static/css/main.26714d36.css",
+    "main.js": "/Archit-Abacus/static/js/main.f17a68c9.js",
+    "static/js/453.166f18b6.chunk.js": "/Archit-Abacus/static/js/453.166f18b6.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/Archit-Abacus/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/Archit-Abacus/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/about1.jpg": "/Archit-Abacus/static/media/about1.6f9c6e847ccd1a05f56a.jpg",
+    "static/media/4.jpg": "/Archit-Abacus/static/media/4.af2d52f10f951f187619.jpg",
+    "index.html": "/Archit-Abacus/index.html",
+    "main.26714d36.css.map": "/Archit-Abacus/static/css/main.26714d36.css.map",
+    "main.f17a68c9.js.map": "/Archit-Abacus/static/js/main.f17a68c9.js.map",
+    "453.166f18b6.chunk.js.map": "/Archit-Abacus/static/js/453.166f18b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26714d36.css",
+    "static/js/main.f17a68c9.js"
+  ]
+}
