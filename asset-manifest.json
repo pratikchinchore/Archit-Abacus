@@ -1,24 +1,40 @@
 {
   "files": {
-    "main.css": "/Archit-Abacus/static/css/main.3aba71cf.css",
-    "main.js": "/Archit-Abacus/static/js/main.aa42c3b3.js",
+    "main.css": "/Archit-Abacus/static/css/main.847a5edd.css",
+    "main.js": "/Archit-Abacus/static/js/main.edf96896.js",
     "static/js/453.166f18b6.chunk.js": "/Archit-Abacus/static/js/453.166f18b6.chunk.js",
+    "static/media/second.mp4": "/Archit-Abacus/static/media/second.b7163252d2b7c1b54ea7.mp4",
+    "static/media/first.mp4": "/Archit-Abacus/static/media/first.692662b8530dade89bd3.mp4",
+    "static/media/firstthumbnail.png": "/Archit-Abacus/static/media/firstthumbnail.511b04b88e6270a9439d.png",
     "static/media/archit-logo.png": "/Archit-Abacus/static/media/archit-logo.893eb8be9db2d7d8370f.png",
+    "static/media/InterVariable-Italic.woff2": "/Archit-Abacus/static/media/InterVariable-Italic.e295f70fe3e2df296c7b.woff2",
+    "static/media/InterVariable.woff2": "/Archit-Abacus/static/media/InterVariable.a0e477f2f1f9d2376fde.woff2",
+    "static/media/primeicons.svg": "/Archit-Abacus/static/media/primeicons.6ed59f962963a4a73af2.svg",
+    "static/media/secondthumnnail.jpeg": "/Archit-Abacus/static/media/secondthumnnail.7a9b50fcffc08e215e7d.jpeg",
     "static/media/archit-logo-1.png": "/Archit-Abacus/static/media/archit-logo-1.9af59a35d3e388facdea.png",
     "static/media/bootstrap-icons.woff?": "/Archit-Abacus/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/TeacherImage.jpeg": "/Archit-Abacus/static/media/TeacherImage.7486f6149e1b226a1af2.jpeg",
     "static/media/bootstrap-icons.woff2?": "/Archit-Abacus/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/primeicons.eot": "/Archit-Abacus/static/media/primeicons.ff0c4cd79b2ffca2de54.eot",
+    "static/media/primeicons.woff": "/Archit-Abacus/static/media/primeicons.8931fda1930c3bd21e96.woff",
+    "static/media/primeicons.ttf": "/Archit-Abacus/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
+    "static/media/primeicons.woff2": "/Archit-Abacus/static/media/primeicons.024b32cc7bf399b1a847.woff2",
     "static/media/about1.jpg": "/Archit-Abacus/static/media/about1.6f9c6e847ccd1a05f56a.jpg",
     "static/media/revicons.eot": "/Archit-Abacus/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/Archit-Abacus/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/4.jpg": "/Archit-Abacus/static/media/4.af2d52f10f951f187619.jpg",
     "static/media/revicons.woff": "/Archit-Abacus/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/slick.svg": "/Archit-Abacus/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Archit-Abacus/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Archit-Abacus/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Archit-Abacus/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Archit-Abacus/index.html",
-    "main.3aba71cf.css.map": "/Archit-Abacus/static/css/main.3aba71cf.css.map",
-    "main.aa42c3b3.js.map": "/Archit-Abacus/static/js/main.aa42c3b3.js.map",
+    "main.847a5edd.css.map": "/Archit-Abacus/static/css/main.847a5edd.css.map",
+    "main.edf96896.js.map": "/Archit-Abacus/static/js/main.edf96896.js.map",
     "453.166f18b6.chunk.js.map": "/Archit-Abacus/static/js/453.166f18b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3aba71cf.css",
-    "static/js/main.aa42c3b3.js"
+    "static/css/main.847a5edd.css",
+    "static/js/main.edf96896.js"
   ]
 }
