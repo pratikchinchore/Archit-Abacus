@@ -2,43 +2,23 @@ import React, { useState } from 'react';
 import { Modal } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import './Activities.css'; // Custom styles
+import './Activities.css';
+import FirstThumbnail from '../../Videos/thumbnail/firstthumbnail.png';
+import SecondThumbnail from '../../Videos/thumbnail/secondthumnnail.jpeg';
 
+import firstVideo from '../../Videos/first.mp4';
+import secondVideo from '../../Videos/second.mp4';
 const Activities = () => {
   const [showModal, setShowModal] = useState(false);
   const [activeVideo, setActiveVideo] = useState('');
 
   const videos = [
-    {
-      id: 1,
-      thumbnail: 'https://img.youtube.com/vi/tgbNymZ7vqY/0.jpg',
-      videoUrl: 'https://www.youtube.com/embed/tgbNymZ7vqY',
-    },
-    {
-      id: 2,
-      thumbnail: 'https://img.youtube.com/vi/sBws8MSXN7A/0.jpg',
-      videoUrl: 'https://www.youtube.com/embed/sBws8MSXN7A',
-    },
-    {
-      id: 3,
-      thumbnail: 'https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg',
-      videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-    },
-    {
-      id: 4,
-      thumbnail: 'https://img.youtube.com/vi/ScMzIvxBSi4/0.jpg',
-      videoUrl: 'https://www.youtube.com/embed/ScMzIvxBSi4',
-    },
-    {
-      id: 5,
-      thumbnail: 'https://img.youtube.com/vi/XGSy3_Czz8k/0.jpg',
-      videoUrl: 'https://www.youtube.com/embed/XGSy3_Czz8k',
-    },
-    {
-      id: 6,
-      thumbnail: 'https://img.youtube.com/vi/eX2qFMC8cFo/0.jpg',
-      videoUrl: 'https://www.youtube.com/embed/eX2qFMC8cFo',
-    },
+    { id: 1, thumbnail: FirstThumbnail, videoUrl: firstVideo },
+    { id: 2, thumbnail: SecondThumbnail, videoUrl: secondVideo },
+    { id: 3, thumbnail: FirstThumbnail, videoUrl: firstVideo },
+    { id: 4, thumbnail: SecondThumbnail, videoUrl: secondVideo },
+    { id: 5, thumbnail: FirstThumbnail, videoUrl: firstVideo },
+    { id: 6, thumbnail: SecondThumbnail, videoUrl: secondVideo },
   ];
 
   const handleThumbnailClick = (videoUrl) => {

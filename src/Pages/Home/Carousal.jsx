@@ -16,7 +16,7 @@ const Carousal = () => {
                         src={First}
                         alt="First slide"
                     />
-                    <div className="carousel-overlay">TEST</div>
+                    {/* <div className="carousel-overlay">TEST</div> */}
                 </div>
             </Carousel.Item>
 

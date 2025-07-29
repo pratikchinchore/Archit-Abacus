@@ -34,7 +34,7 @@ const CounterCard = ({ item }) => {
 const Counter = () => {
   return (
     <div className="counter-container">
-      <h2 className="counter-heading">Our Achievements</h2>
+      <h2 className="counter-heading">Achievements</h2>
       <div className="counter-grid">
         {counterData.map((item, index) => (
           <CounterCard key={index} item={item} />
