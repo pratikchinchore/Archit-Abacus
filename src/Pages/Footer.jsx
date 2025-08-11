@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaArrowUp } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaArrowUp } from 'react-icons/fa';
 import logo from '../Images/archit-logo-1.png'; // Change path as needed
 import './Home/Home.css'
 
