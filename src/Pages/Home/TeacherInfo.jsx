@@ -33,8 +33,7 @@ const TeacherInfo = () => {
             designed to enhance critical thinking, creativity, problem-solving, and cognitive skills.
           </p>
           <p className="teacher-description">
-            The success of my teaching is reflected in my students' enthusiasm for learning and their
-            academic improvement. Additionally, I provide training to teachers, equipping them
+            Additionally, I provide training to teachers, equipping them
             with innovative teaching methodologies.
           </p>
         </div>

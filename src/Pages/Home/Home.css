@@ -1,4 +1,23 @@
 /* Base carousel image styling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-padding-top: 80px; /* fallback for browsers without JS offset */
+}
+
+.active-link {
+  font-weight: bold;
+  color: #ff6600 !important;
+  border-bottom: 2px solid #ff6600;
+  transition: all 0.3s ease-in-out;
+}
+@media (max-width: 768px) {
+  body {
+    scroll-padding-top: 25px !important; /* Smaller offset for smaller navbar */
+  }
+}
 .carousel-image {
   object-fit: cover;
   width: 100%;
@@ -39,7 +58,7 @@
 }
 
 .abacus-section {
-  background: #f8f9fa; /* Light gray */
+  /* background: #f8f9fa;  */
   border-radius: 12px;
 }
 

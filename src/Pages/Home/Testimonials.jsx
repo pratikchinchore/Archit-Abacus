@@ -8,8 +8,8 @@ import "./Testimonials.css";
 
 const testimonials = [
   {
-    name: "Rohit Sharma",
-    text: "The teachers are highly qualified and supportive. My child loves going to school every day!",
+    name: "Deepali Bhadane",
+    text: "The teachers are highly qualified and supportive. My child loves going to class every day!",
     stars: 5,
   },
   {

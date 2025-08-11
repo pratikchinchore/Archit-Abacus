@@ -23,7 +23,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="footer bg-dark text-light pt-4 pb-3 mt-5 border-top border-secondary position-relative">
+      <footer className="footer bg-dark text-light pt-4 pb-3 border-top border-secondary position-relative">
         <Container>
           <Row className="align-items-center">
             {/* Logo & Copyright */}
@@ -34,10 +34,9 @@ const Footer = () => {
 
             {/* Social Icons */}
             <Col md={6} className="text-center text-md-end">
-              <a href="https://facebook.com" className="text-light fs-5 me-3" target="_blank" rel="noreferrer"><FaFacebookF /></a>
-              <a href="https://twitter.com" className="text-light fs-5 me-3" target="_blank" rel="noreferrer"><FaTwitter /></a>
-              <a href="https://instagram.com" className="text-light fs-5 me-3" target="_blank" rel="noreferrer"><FaInstagram /></a>
-              <a href="https://youtube.com" className="text-light fs-5" target="_blank" rel="noreferrer"><FaYoutube /></a>
+              <a href="https://www.facebook.com/profile.php?id=61555744427112" className="text-light fs-5 me-3" target="_blank" rel="noreferrer"><FaFacebookF /></a>
+              <a href="https://www.instagram.com/archit_magic_maths?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="text-light fs-5 me-3" target="_blank" rel="noreferrer"><FaInstagram /></a>
+              {/* <a href="https://youtube.com" className="text-light fs-5" target="_blank" rel="noreferrer"><FaYoutube /></a> */}
             </Col>
           </Row>
         </Container>

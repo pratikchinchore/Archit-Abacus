@@ -1,6 +1,6 @@
 .testimonial-section {
   width: 100%;
-  padding: 4rem 2rem;
+  padding: 2rem 1rem;
   background: linear-gradient(to right, #e0f7fa, #fce4ec);
 }
 
@@ -71,7 +71,7 @@
 
 @media (max-width: 768px) {
   .testimonial-section {
-    padding: 2rem 1rem;
+    padding: 1.5rem 0.5rem;
   }
 
   .testimonial-title {
