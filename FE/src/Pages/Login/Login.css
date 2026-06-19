@@ -1,0 +1,174 @@
+
+.login-card {
+  transition: all 0.3s ease;
+}
+
+.login-card:hover {
+  transform: translateY(-5px);
+}
+
+.login-btn {
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+  transform: scale(1.03);
+}
+ 
+.login-page {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+
+  background: linear-gradient(
+    135deg,
+    #6dd5fa,
+    #fce38a,
+    #ff9a9e
+  );
+}
+
+/* Card */
+
+.login-card {
+  border: none;
+  border-radius: 30px;
+  background: rgba(255,255,255,0.95);
+
+  backdrop-filter: blur(10px);
+
+  box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+}
+
+/* Icon */
+
+.abacus-icon {
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+/* Title */
+
+.login-title {
+  font-weight: 700;
+  color: #23395d;
+}
+
+.login-subtitle {
+  color: #666;
+  font-size: 15px;
+}
+
+/* Inputs */
+
+.form-control {
+  height: 58px;
+  border-radius: 15px;
+  border: 2px solid #e5e5e5;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #6dd5fa;
+}
+
+/* Button */
+
+.login-btn {
+  height: 55px;
+  border: none;
+  border-radius: 15px;
+
+  font-size: 18px;
+  font-weight: 600;
+
+  background: linear-gradient(
+    90deg,
+    #ff6b6b,
+    #feca57
+  );
+}
+
+.login-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Register */
+
+.register-link {
+  color: #0d6efd;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Floating Bubbles */
+
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.3;
+  animation: float 10s infinite ease-in-out;
+}
+
+.bubble1 {
+  width: 150px;
+  height: 150px;
+  background: white;
+  top: 10%;
+  left: 10%;
+}
+
+.bubble2 {
+  width: 100px;
+  height: 100px;
+  background: white;
+  top: 70%;
+  left: 15%;
+}
+
+.bubble3 {
+  width: 180px;
+  height: 180px;
+  background: white;
+  top: 20%;
+  right: 10%;
+}
+
+.bubble4 {
+  width: 120px;
+  height: 120px;
+  background: white;
+  bottom: 10%;
+  right: 15%;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-25px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  .login-card {
+    border-radius: 20px;
+  }
+
+  .abacus-icon {
+    font-size: 55px;
+  }
+
+  .login-title {
+    font-size: 28px;
+  }
+}
